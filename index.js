@@ -62,7 +62,7 @@ function checkGuess() {
   if (attempts === maxNumberOfAttempts) {
     submitButton.disabled = true;
     guessInput.disabled = true;
-  }if(attempts != 1){
+  }if(attempts === 4){
     numberOfGuessesMessage.innerHTML =`you guessed ${guess}. <br>  
     1 guess remaining`;
   } 
