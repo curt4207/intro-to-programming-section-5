@@ -5,11 +5,34 @@ main {
   align-items: center;
   margin: auto;
 }
-
+body{
+  background-color:rgb(238, 161, 93);
+}
 #guess {
   width: 5em;
+}
+button#submit{
+  background-color: rgb(63, 128, 130);
+  
+}
+button#submit:hover{
+  color:chartreuse;
 }
 
 #reset {
   margin: 20px;
+  background-color: red;
+}
+#reset:hover{
+  color:chartreuse;
+}
+
+.message#too-high{
+  color: rgb(248, 5, 54);
+}
+.message#too-low{
+  color:rgb(159, 7, 159);
+}
+.message#correct{
+
 }
